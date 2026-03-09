@@ -146,7 +146,7 @@ export function Footer() {
             <div className="space-y-2">
               <h4 className="font-medium text-sm">Newsletter</h4>
               <p className="text-xs text-muted-foreground">
-                Get updates on new products and special offers
+                Get updates on new products and offers
               </p>
               <div className="flex gap-2">
                 <Input
