@@ -4,7 +4,7 @@ import { TooltipProvider } from "./components/ui/Tooltip.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext.jsx";
-import Index from "./pages/Index";
+import Index from "./pages/Index.jsx";
 import Shop from "./pages/Shop";
 import ProductDetail from "./pages/ProductDetails.jsx";
 import Cart from "./pages/Cart";

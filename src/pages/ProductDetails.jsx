@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "../components/ui/Button.jsx";
+import { Badge } from "../components/ui/badge";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
 } from "../components/ui/Tabs.jsx";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/Card.jsx";
 import { Separator } from "../components/ui/Separator";
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
-import { ProductCard } from "@/components/ProductCard";
-import { useCart } from "@/context/CartContext";
-import { products } from "@/data/products";
+import { Navigation } from "../components/Navigation";
+import { Footer } from "../components/Footer";
+import { ProductCard } from "../components/ProductCard";
+import { useCart } from "../context/CartContext";
+import { products } from "../data/products";
 import {
   Star,
   Heart,
@@ -28,7 +28,7 @@ import {
   Plus,
   ArrowLeft,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/Utils.js";
 
 const ProductDetail = () => {
   const { id } = useParams();

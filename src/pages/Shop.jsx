@@ -1,28 +1,28 @@
 import { useState, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "../components/ui/Button";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
+import { Checkbox } from "../components/ui/checkbox";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
-import { Badge } from "@/components/ui/badge";
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
-import { ProductCard } from "@/components/ProductCard";
-import { products, categories } from "@/data/products";
+} from "../components/ui/sheet";
+import { Badge } from "../components/ui/badge";
+import { Navigation } from "../components/Navigation";
+import { Footer } from "../components/Footer";
+import { ProductCard } from "../components/ProductCard";
+import { products, categories } from "../data/products";
 import { Filter, Search, SlidersHorizontal } from "lucide-react";
 
 const Shop = () => {

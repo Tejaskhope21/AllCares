@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
-import { Hero } from "@/components/Hero";
-import { ProductCard } from "@/components/ProductCard";
+import { Button } from "../components/ui/Button";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/Card";
+import { Badge } from "../components/ui/badge";
+import { Navigation } from "../components/Navigation";
+import { Footer } from "../components/Footer";
+import { Hero } from "../components/Hero";
+import { ProductCard } from "../components/ProductCard";
 import {
   categories,
   featuredProducts,
   bestSellers,
   onSale,
-} from "@/data/products";
+} from "../data/products";
 import {
   ArrowRight,
   Truck,
